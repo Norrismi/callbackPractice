@@ -107,26 +107,12 @@ uniq(names, function(uniqArr){
 
 // 6. Write a function called each that takes in an array of names and a callback function. For each name in the array, invoke the callback and pass in the name and the name's index as arguments.
 
-// arr.forEach(function(element) {
-//   console.log(element);
-// });
-
 var each = (arr, cb) => {
   return arr.forEach((elem, index) => {
     cb(elem, index);
   });
 }
 
-
-
-
-
-
-
-
-// each(names, function(item, indice){
-//   console.log('The item in the ' + indice + ' position is ' + item)
-// });
 
 
 
